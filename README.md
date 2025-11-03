@@ -1,5 +1,3 @@
-# NFL Game Outcome Prediction Using Machine Learning
-
 ## Objective
 The goal of this project is to predict the outcome of NFL games using historical team statistics.
 Logistic Regression and Random Forest models will be implemented to predict whether the home team will win.
