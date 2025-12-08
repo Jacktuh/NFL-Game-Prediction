@@ -1,19 +1,33 @@
-## NFL Game Prediction Using Machine Learning
+# NFL Game Prediction Using Machine Learning
 
 ## Objective
-The goal of this project is to predict the outcome of NFL games using historical team statistics.
-Logistic Regression and Random Forest models will be implemented to predict whether the home team will win.
+The goal of this project is to predict whether the **home team** wins an NFL game using machine learning models trained on weekly team-level statistics from the **2024 NFL season**. The project compares **Logistic Regression** and **Random Forest** models.
 
-## Methods
-- Data Source: 'nfl_data_py'
-- Models: Logistic Regression, Random Forest
-- Tools: Python, Pandas, Scikit-learn, Jupyter Notebooks
-- Evaluation Metrics: Accuracy, Precision, Recall, ROC AUC
+---
 
-## Current Status
-- Repository created
-- Data loading and cleaning in progress
-- Feature selection and model training (next step)
+## Data Source
+All NFL data used in this project is obtained through the Python library **`nfl_data_py`**, which provides access to publicly available datasets from the NFLverse pipeline.
 
-## Timeline
-Coming soon - following research proposal timeline.
+- PyPI: https://pypi.org/project/nfl-data-py/
+- Documentation: https://nflreadpy.nflverse.com/
+
+Data includes:
+- Weekly player statistics  
+- Team-level aggregates  
+- Game outcomes  
+
+---
+
+## Environment & Dependencies
+
+**Python Version:** 3.12  
+**Required Packages:**
+- pandas  
+- numpy  
+- scikit-learn  
+- matplotlib  
+- nfl_data_py  
+
+### Install Dependencies:
+```bash
+pip install pandas numpy scikit-learn matplotlib nfl_data_py
